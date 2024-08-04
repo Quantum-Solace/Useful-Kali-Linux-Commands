@@ -6,7 +6,7 @@ ___________________
 
 **run command with superuser priviledges**
 
-sudo  
+`sudo`  
 
 **run last command as sudo**
 
