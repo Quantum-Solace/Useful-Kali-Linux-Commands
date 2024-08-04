@@ -10,83 +10,83 @@ ___________________
 
 **run last command as sudo**
 
-sudo !! 
+`sudo !!` 
 
 **run command as a background process**
 
-nohup 
+`nohup` 
 
-&
+`&`
 
 **check background jobs**
 
-bg
+`bg`
 
 **print local ip addresses**
 
-ifconfig
+`ifconfig`
 
-ip a
+`ip a`
 
-ip addr
+`ip addr`
 
-ip address
+`ip address`
 
-<!-- print wifi cards and their status -->
+**print wifi cards and their status**
 
-iwconfig
+`iwconfig`
 
-iw dev
+`iw dev`
 
-<!-- print public ip address -->
+**print public ip address**
 
-curl ifconfig.me
+`curl ifconfig.me`
 
-<!-- print $PATH -->
+*print $PATH**
 
-echo $PATH
+`echo $PATH`
 
-<!-- print environments -->
+**print environments**
 
-env
+`env`
 
-<!-- print background processes --> 
+**print background processes** 
 
-ps aux
+`ps aux`
 
-top 
+`top`
 
-htop
+`htop`
 
-<!-- print network ports and connections -->
+**print network ports and connections**
 
-netstat -a
+`netstat -a`
 
-<!-- download files from a website -->
+**download files from a URL**
 
-wget
+`wget`
 
-curl -o
+`curl -o`
 
-<!-- check for wifi card -->
+**check for wifi card**
 
-iwconfig
+`iwconfig`
 
-iw dev
+`iw dev`
 
-<!-- hcxdumptool & hcxpcaptool for hashcat WPA2 PMKID cracking and hash conversion -->
+**hcxdumptool & hcxpcaptool for hashcat WPA2 PMKID cracking and hash conversion**
 
-hcxdumptool -i <interface> -w <outputfile> -F --rds=1 --beacontx=10 --gpsd
+`hcxdumptool -i <interface> -w <outputfile> -F --rds=1 --beacontx=10 --gpsd`
 
-hashcat -m 22000 <file.hc22000> -a 3 ?d?d?d?d?d?d?d?d?d?d
+`hashcat -m 22000 <file.hc22000> -a 3 ?d?d?d?d?d?d?d?d?d?d`
 
-<!-- start nessus --> 
-sudo systemctl start nessusd.service
+**start nessus**
+`sudo systemctl start nessusd.service`
 
 open browser at https://localhost:8834
 
-<!-- virus scanners and rootkithunter -->
+**virus scanners and rootkithunter**
 
-clamtk
+`clamtk`
 
-rkhunter --check
+`rkhunter --check`
