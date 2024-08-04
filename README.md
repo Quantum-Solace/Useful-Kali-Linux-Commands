@@ -4,25 +4,25 @@ This is just a simple showcase of my favourite linux commands, I will be updatin
 Favourite commands
 ___________________
 
-<!-- run command with superuser priviledges -->
+**run command with superuser priviledges**
 
 sudo  
 
-<!-- run last command as sudo -->
+**run last command as sudo**
 
 sudo !! 
 
-<!-- run command as a background process -->
+**run command as a background process**
 
 nohup 
 
 &
 
-<!-- check background jobs -->
+**check background jobs**
 
 bg
 
-<!-- print local ip addresses -->
+**print local ip addresses**
 
 ifconfig
 
