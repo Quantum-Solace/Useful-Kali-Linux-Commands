@@ -4,6 +4,12 @@ This is just a simple showcase of my favourite linux commands, I will be updatin
 Favourite commands
 ___________________
 
+**Manual pages and man page alternatives**
+
+`man`
+
+`tldr`
+
 **run command with superuser priviledges**
 
 `sudo`  
